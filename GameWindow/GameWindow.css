@@ -1,0 +1,16 @@
+#gameWindowContainer {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+
+#gameWindowContainer > div:first-of-type {
+    background-color: #262626;
+}
+
+#gameWindowContainer > div:first-of-type > iframe:first-of-type {
+    border: none;
+    width: 100%;
+    height: 100%;
+}

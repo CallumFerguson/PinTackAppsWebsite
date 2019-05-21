@@ -1,0 +1,15 @@
+#parent {
+    background-color: white;
+    width: 80%;
+    margin: 25px auto 25px auto;
+    padding: 25px;
+    padding-top: 10px;
+}
+
+div, h2 {
+    font-family: sans-serif;
+}
+
+strong {
+    font-size: 15pt;
+}

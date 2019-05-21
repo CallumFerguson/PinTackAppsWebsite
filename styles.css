@@ -1,0 +1,142 @@
+h1, h2 {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 75pt;
+    color: #4CAF50;
+    text-shadow: 2px 2px #27692a;
+}
+
+h2 {
+    color: #ededed;
+    margin-bottom: 50px;
+}
+
+.contentBox {
+    position: relative;
+    width: 80%;
+    min-width: 844px;
+    max-width: 1300px;
+    height: 300px;
+    background-color: #eaeaea;
+    margin: 25px auto 0 auto;
+    box-shadow: 5px 5px black;
+}
+
+.contentBox > img {
+    position: absolute;
+    height: 300px;
+}
+
+.contentBox:nth-child(even) > img {
+    right: 0px;
+}
+
+.contentBox:nth-child(odd) > img {
+    left: 0px;
+}
+
+.contentBox > div {
+    width: calc(100% - 300px);
+    height: 100%;
+}
+
+.contentBox:nth-child(odd) > div {
+    margin-left: 300px;
+}
+
+.contentBox > div > h1 {
+    font-size: 35pt;
+    text-shadow: none;
+    color: #656671;
+    margin: 0;
+}
+
+.contentBox > div > h2 {
+    font-size: 13pt;
+    color: #808080;
+    margin: 0;
+}
+
+.contentBox > div > div {
+    width: 90%;
+    margin: auto;
+    height: 120px;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 11pt;
+    line-height: 15px;
+}
+
+.contentBox > div > a > img {
+    height: 50px;
+    margin: 10px 0 0 10px;
+}
+
+.contentBox > div .playLink {
+    height: 10px;
+    margin: -10px auto 0 auto;
+}
+
+.contentBox > div .playLink > a, .contentBox > div .playLink > a:visited, .contentBox > div .playLink > a:hover {
+    background-color: transparent;
+    color: blue;
+}
+
+#multiplayer {
+    height: 60px;
+}
+
+#footer {
+    width: 100%;
+    height: 200px;
+    background-color: #212121;
+    margin-top: 100px;
+}
+
+#footer > p:first-of-type {
+    padding-top: 50px;
+}
+
+#footer > p {
+    color: #a0a0a0;
+    margin-left: 50px;
+}
+
+
+#footer > p > a, #footer > p > a:visited, #footer > p > a:hover {
+    color: #e0e0e0;
+    background-color: transparent;
+}
+
+#trailerButton {
+    color: blue;
+    text-decoration: underline;
+    width: 100px;
+}
+
+#trailerButton:hover {
+    cursor: pointer;
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#popup > iframe {
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    left: calc(50vw - 400px);
+    top: 200px;
+}

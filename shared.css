@@ -1,0 +1,10 @@
+body {
+    background-color: #121212;
+/*    background-color: #171717;*/
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
