@@ -32,12 +32,6 @@
     = 49px total physical height
 */
 
-#navbar > li:last-child a {
-    background-color: #4CAF50;
-    position: absolute;
-    right: 0;
-}
-
 #navbar > li a.active, a:hover {
     background-color: #767989;
     color: #f4f4f4;
